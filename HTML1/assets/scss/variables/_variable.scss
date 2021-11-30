@@ -1,0 +1,12 @@
+$primary-bg-color:gray;
+$secondary-bg-color:rgb(73, 66, 66);
+
+$primary-border-color:rgb(241, 236, 236);
+
+@mixin box($border-color:white,$widht:50px) {
+    width: $widht;
+    height: 50px;
+    border: 4px solid;
+    border-color: $border-color;
+    border-radius: 2px;
+}
